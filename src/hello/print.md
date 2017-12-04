@@ -8,6 +8,8 @@ some of which include:
 * `println!`: same as `print!` but a newline is appended.
 * `eprint!`: same as `format!` but the text is printed to the standard error (io::stderr).
 * `eprintln!`: sames as `eprint!`but a newline is appended.
+* `write!`: same as `format!` but the text is written to the given writer (an instance of std::io::Write).
+* `writeln!`: sames as `write!`but a newline is appended.
 
 All parse text in the same fashion. A plus is that the formatting correctness will
 be checked at compile time.
